@@ -19,7 +19,7 @@ public class FinanceDepartment extends Department {
     void processBudget(){
         System.out.println("Department id : " + id);
         //System.out.println("Department Name : " + name); can't access since it is a private property
-        //System.out.println("Department Manager Name : " + department.managerName); can't access since it is defalut
+        //System.out.println("Department Manager Name : " + managerName); can't access since it is defalut
         
         departmentDetails();
     }
